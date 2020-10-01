@@ -4,7 +4,7 @@ from math import exp
 
 
 def sigmoid(Z):
-    #TODO Complete the function implementation. Read the Question text for details
+    
     output = []
     for i in (Z):
             output.append(1/(1+exp(-i)))
