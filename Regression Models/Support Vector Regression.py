@@ -39,7 +39,7 @@ regressor.fit(X , y)
 # Create your regressor here
 
 # Predicting a new result
-y_pred = sc_y.inverse_transform(regressor.predict(sc_X.fit_transform(np.array([[10]]))))
+y_pred = sc_y.inverse_transform(regressor.predict(sc_X.fit_transform())))
 #y_pred = sc_y.inverse_transform(y_pred)
 
 # Visualising the SVR results
